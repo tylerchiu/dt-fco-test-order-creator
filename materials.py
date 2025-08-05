@@ -41,5 +41,15 @@ MATERIAL_PRICING = {
         {"Itempriceperunit": "0.00", "Itempricecondition": "ZCT1"},
         {"Itempriceperunit": "0.00", "Itempricecondition": "ZNET"},
         {"Itempriceperunit": "0.00", "Itempricecondition": "ZDCP"},
+    ],
+    "30120001": [
+        {"Itempriceperunit": "22.22", "Itempricecondition": "ZCUS"},
+        {"Itempriceperunit": "0.00", "Itempricecondition": "ZPR2"},
+        {"Itempriceperunit": "22.22", "Itempricecondition": "ZDCV"},
+        {"Itempriceperunit": "22.22", "Itempricecondition": "ZDPV"},
+        {"Itempriceperunit": "0.00", "Itempricecondition": "ZPSD"},
+        {"Itempriceperunit": "0.00", "Itempricecondition": "ZCT1"},
+        {"Itempriceperunit": "22.22", "Itempricecondition": "ZNET"},
+        {"Itempriceperunit": "0.00", "Itempricecondition": "ZDCP"},
     ]
 }

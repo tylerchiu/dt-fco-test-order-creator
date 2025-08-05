@@ -1,0 +1,2 @@
+# Prevent secrets from being committed
+.streamlit/secrets.toml
