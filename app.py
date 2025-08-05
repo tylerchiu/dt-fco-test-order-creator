@@ -20,13 +20,15 @@ def get_session_id():
             auth=(user, password)
         )
         response.raise_for_status()
-        return response.json().get("SESSION", "NO_SESSION")
+        session = response.json().get("SESSION")
+        if not session:
+            st.error(f"API responded but 'SESSION' key is missing. Raw response: {response.json()}")
+            return "NO_SESSION"
+        return session
 
     except Exception as e:
         st.error(f"Failed to get session ID: {e}")
         return "NO_SESSION"
-
-
 
 # UI setup
 st.set_page_config(page_title="dōTERRA Test Order Creator", layout="wide")
